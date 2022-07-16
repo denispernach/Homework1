@@ -12,18 +12,19 @@ int max=A;
 if (A> B && A > C)
 {
 max = A;
-Console.WriteLine ("max=A");
+Console.WriteLine (max);
 }
 else if (B > A && B > C)
 {
 max = B;
-Console.WriteLine ("max=B");
+Console.WriteLine (max);
 }
 else
 {
 max = C;
-Console.WriteLine ("max=C");
+Console.WriteLine (max);
 }
+
 
 
 
